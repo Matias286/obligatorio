@@ -1,4 +1,5 @@
 class Sistema{
+    // HOLA ESTO ES UN CAMBIO
     constructor(){
         this.destinos = [];
         this.usuarios = [];
