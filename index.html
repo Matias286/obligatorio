@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obligatorio P1</title>
+    <script src="/js/clases.js"></script>
+    <script src="/js/codigo.js"></script>
+    <script src="/js/sistema.js"></script>
+</head>
+<body>
+    <section id="sectionRegistro">
+        <h3>Registro</h3>
+        <label for="txtUserNameRegistro">Usuario: </label>
+        <input type="text" id="txtUserNameRegistro"><br>
+        <label for="txtContraseniaRegistro">Contraseña: </label>
+        <input type="password" id="txtContraseniaRegistro"><br>
+        <label for="txtUserNameRegistro">Nombre: </label>
+        <input type="text" id="txtApellido"><br>
+        <label for="txtUserNameRegistro">Apellido: </label>
+        <input type="text" id="txtTarjeta"><br>
+        <label for="txtUserNameRegistro">Tarjeta de crédito: </label>
+        <input type="text" id="txtCVV"><br>
+        <label for="txtUserNameRegistro">CVV: </label>
+        <input type="text" id="txtNombre"><br>
+
+        <input type="button" value="Registrarse" id="btnRegistrarse">
+        <p id="pMensajes"></p>
+    </section>
+
+    <section id="loginUsuario">
+
+        <h3>Login de usuario</h3>
+        <label for="txtNombreUsuarioLogin">Nombre de usuario</label>
+        <input type="text" id="txtNombreUsuarioLogin"><br>
+
+        <label for="txtContraseniaLogin">Contraseña</label>
+        <input type="text" id="txtContraseniaLogin"><br>
+
+        <input type="button" value="Login" id="btnLogin">
+    </section>
+
+
+    <section id="reservarDestino">
+
+        <h3>Reservar Destino</h3>
+        <label for="txtNombreDestino">Nombre destino</label>
+        <input type="text" id="txtNombreDestino"><br>
+
+        <label for="dateFechaDesde">Desde</label>
+        <input type="date" id="dateFechaDesde"><br>
+
+        <label for="dateFechaHasta">Hasta</label>
+        <input type="date" id="dateFechaHasta"><br>
+
+        <label for="dateFechaHasta">Cantidad de personas</label>
+        <input type="number" id="cantidadPersonas"><br>
+
+        <label for="">Medio de pago</label><br>
+        <select id="slcMedioDePago">
+            <option value="Efectivo">EFECTIVO</option>
+            <option value="MILLAS">MILLAS</option>
+        </select><br>
+
+        <input type="button" value="Reservar" id="btnReservar">
+    </section>
+</body>
+</html>
